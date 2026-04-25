@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img4.png";
 import projImg2 from "../assets/img/project-img5.png";
 import projImg3 from "../assets/img/project-img6.png";
+import projImg4 from "../assets/img/project-img7.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -20,7 +21,7 @@ export const Projects = () => {
       title: "Gemini Clone",
       description: "Development",
       imgUrl: projImg2,
-      link: "https://geminiclone-mu.vercel.app/",
+      link: " https://clone-gemini.vercel.app/",
     },
     {
       title: "Inventory System",
@@ -28,12 +29,12 @@ export const Projects = () => {
       imgUrl: projImg3,
       link: "https://beuta-inventory-system.vercel.app/",
     },
-    // {
-    //   title: "Inventory System",
-    //   description: "Development",
-    //   imgUrl: projImg3,
-    //   link: "https://beuta-inventory-system.vercel.app/",
-    // },
+    {
+      title: "Mental Health Platform",
+      description: "Development",
+      imgUrl: projImg4,
+      link: "https://pendo-care-five.vercel.app/",
+    },
    
     
   ];
